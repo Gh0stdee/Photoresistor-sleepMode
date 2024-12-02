@@ -3,7 +3,7 @@
 #define wakePin 32
 #define lightPin 34
 
-int usFactor = 1000000;   //us to minutes multiplier         
+int usFactor = 60000000;   //us to minutes multiplier         
 int detectGap = 10;        //minutes between checking of light sensor values
 bool espState = false;    //set ESP to be Off for default
 bool voltageWake;                //Touch pin voltage 
